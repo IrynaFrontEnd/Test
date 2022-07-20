@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <a href="#" class="header_item">Shop</a>
+        <span class="vl header_item"></span>
+        <a href="indexCart.html" class="header_item">Shopping Cart</a>
+    </div>     
+
+
+    <div class="container">
+        <div class="store">
+            <p>Shops:</p>
+            
+                <div class="store-name">
+                    <button class="clic"><a class="shop" href="#">Silpo</a></button>
+                    <br>
+                    <button class="clic"><a class="shop" href="#">Wolmart</a></button>
+                    <br>
+                    <button class="clic"><a class="shop" href="#">Costko</a></button>
+                    <br>
+                    <button class="clic"><a class="shop" href="#">ABV</a></button>
+                    <br>
+                    <button class="clic"><a class="shop" href="#">KFS</a></button>
+                    
+            </div>
+            
+        </div>
+        
+        
+
+        <div class="cardContainer">
+            <div class="scrollbar" id="style-1">
+                           
+            <div class="card_item">
+                           
+            <!--card 1 -->
+                <div class="pad1">
+                <div class="card" data-id="01" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://cdn.pixabay.com/photo/2019/07/29/05/52/burger-4369973_960_720.jpg" alt="foto1">
+                    <div class="card-body">
+                      <h5 class="card-title">Big burger menu</h5>
+                      <span class="price__currency">Price: 50$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>     
+                        
+               </div>
+               </div>
+                </div>
+                </div>
+            
+               
+                <!--card 2 -->
+                <div class="pad1">
+                    <div class="card" data-id="02" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg" alt="foto2">
+                    <div class="card-body">
+                      <h5 class="card-title">Two burger menu</h5>
+                      <span class="price__currency">Price: 45$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+                <!--card 3 -->
+                
+                <div class="pad1">
+                <div class="card"  data-id="03" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://cdn.pixabay.com/photo/2020/06/25/12/36/burger-5339539__340.jpg" alt="foto3">
+                    <div class="card-body">
+                      <h5 class="card-title">Two black burger menu</h5>
+                      <span class="price__currency">Price: 45$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                </div>
+
+                <!--card 4 -->
+                
+                <div class="pad1">
+                <div class="card"  data-id="04" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://cdn.pixabay.com/photo/2017/01/22/19/12/pizza-2000599__340.jpg" alt="foto4">
+                    <div class="card-body">
+                      <h5 class="card-title">Pizza menu</h5>
+                      <span class="price__currency">Price: 35$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!--card 5 -->
+                <div class="pad1">
+                <div class="card"  data-id="05" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://media.istockphoto.com/photos/greek-souvlakisalad-and-gyros-take-away-menu-serving-in-recyclable-picture-id1393151995?k=20&m=1393151995&s=612x612&w=0&h=oz34pkcvB9YBxGq4h_1Btaf07EoYR9f6VVt1WYggsIU=" alt="foto5">
+                    <div class="card-body">
+                      <h5 class="card-title">Food in a box</h5>
+                      <span class="price__currency">Price: 25$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>
+                     </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!--card 6 -->
+                <div class="pad1">
+                <div class="card"  data-id="06" style="width: 20rem;">
+                    <img class="product-img card-img-top" src="https://cdn.pixabay.com/photo/2021/03/02/17/27/shawarma-6063271__340.jpg" alt="foto6">
+                    <div class="card-body">
+                      <h5 class="card-title">Shawarma menu</h5>
+                      <span class="price__currency">Price: 15$</span>
+                      <div class="button">
+                        <button data-cart type="button" class="btn btn-primary">add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                             
+</div>
+</div>
+</div>
+</div>
+
+<!--  Корзина -->
+<div data-cart-empty class="alert alert-secondary" role="alert">
+  Make an order
+</div>
+<div class="section">
+  
+  <div class="scrollbar" id="style-1">
+  <div class="cart-wrapper">
+                 
+    <div class="cart-item card mb-5" data-id="01" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="https://cdn.pixabay.com/photo/2019/07/29/05/52/burger-4369973_960_720.jpg" class="product-img img-fluid rounded-start" alt="foto1">
+        </div>
+        <div class="col-md-5">
+          <div class="card-body title">
+            <span class="card-title">Big burger menu</span>
+            <br>
+            <span class="price__currency">Price: 50$</span>
+
+          <div class="details-wrapper">
+              <div class="items counter-wrapper">
+                <div class="items__control" data-action="minus">-</div>
+                <div class="items__current" data-counter="">1</div>
+                <div class="items__control" data-action="plus">+</div>
+              </div>
+            
+            
+                                
+        </div>
+        
+        </div>
+      </div>
+   </div> 
+
+  </div>
+</div>
+</div> 
+</div> 
+
+    
+
+<div class="price">
+
+  
+  <p><span class="h5">Total price:</span><span class="total-price">0</span> <span class="doll">$</span></p>
+  <button class="check2 btnCheck">Submit</button>
+
+</div>
+
+<!-- Мои подключения JS, Bootstrap-->
+<script src="scriptTotal.js"></script>
+<script src="scriptClick.js"></script>
+<script src="scriptBuscet.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>    
+
+
+
+

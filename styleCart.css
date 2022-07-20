@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+}
+.header_item{
+    padding: 15px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 20px;
+    padding: 10px;
+    }
+    
+    .scrollbar {
+    background-color: #F5F5F5;
+    float: right;
+    height: 400px;
+    
+    overflow-y: scroll;
+    }
+    
+    .store{
+    border: 1px solid black;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 500px;
+    
+    }
+    
+   .store-name{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     padding: 20px;
+     
+    }
+    
+    .clic{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    }
+    .clic:hover{
+    background-color: grey;
+    }
+    .shop{
+    padding: 10px;  
+    text-decoration: none;
+    color: black;
+    }
+    .shop:hover{
+        color: black;
+    }
+    
+    
+    .section{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 500px;
+    padding: 15px;
+    }
+    .cart-wrapper{
+    flex-direction: column;
+    padding: 30px;
+    }
+    .card{
+    padding: 20px;
+    border: 1px solid black;
+    }
+
+    .card-title, .card-text{
+        font-size: 14px;
+    }
+
+ .details-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .items {
+        background: #f2ede7;
+        border-radius: 8px;
+        width: 90px;
+        display: flex;
+        font-size: 18px;
+        height: 30px;
+        overflow: hidden;
+    }
+    
+    .items__control {
+        width: 40px;
+        cursor: pointer;
+        transition: 0.2s ease-in;
+        text-align: center;
+    }
+    
+    .items__control:hover {
+        background: #eb5a1e;
+        color: #FFF;
+    }
+    
+    .items__current {
+        width: 20px;
+    }
+      
+    .button{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    img{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .price{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 400px;
+        padding: 15px;
+    }
+
+    .btnCheck{
+        padding: 15px;
+        border-radius: 20px;
+
+    }

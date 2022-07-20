@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+}
+.header_item{
+        padding: 10px;
+}  
+
+.vl {
+    border-left: 2px solid black;
+    height: 15px;
+}
+
+.container{
+display: flex;
+justify-content:flex-start;
+margin-left: 20px;
+padding: 10px;
+}
+
+.scrollbar {
+background-color: #F5F5F5;
+float: right;
+height: 500px;
+overflow-y: scroll;
+}
+
+.store{
+border: 1px solid black;
+border-radius: 10px; 
+padding: 10px;
+}
+
+p{
+display: flex;
+justify-content: center;
+margin-top: 15px;
+font-weight: 700;
+}
+
+
+.store-name{
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ padding: 20px;
+}
+
+.clic{
+text-align: center;
+border: 1px solid black;
+border-radius: 10px;
+padding: 15px;
+}
+.clic:hover{
+background-color: grey;
+}
+.shop{
+padding: 10px;  
+text-decoration: none;
+color: black;
+}
+.shop:hover{
+    color: black;
+}
+
+
+.cardContainer{
+border: 1px solid black;
+border-radius: 10px;
+margin-left: 20px;
+width: 1000px;
+padding: 15px;
+}
+.card_item{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 30px;
+}
+.card{
+padding: 20px;
+border: 1px solid black;
+}
+
+.price__currency{
+    display: none;
+}
+.pad1{
+padding: 25px;
+}
+
+.button{
+display: flex;
+justify-content: flex-end;
+}
+
+.big{
+    border: none;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    img{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .price{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 400px;
+        padding: 15px;
+    }
+
+    .check, .check2{
+         padding: 15px;
+    }
+
+    .btnCheck{
+        padding: 15px;
+        border-radius: 20px;
+
+    }
